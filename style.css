@@ -358,6 +358,20 @@ main {
   align-self: center;
   border-radius: 5px;
 }
+/* .music:focus{
+  background: linear-gradient(98.62deg, #ffac30 -27.91%, #fd01a7 102.96%);
+
+} */
+.different:focus{
+  background: linear-gradient(98.62deg, #ffac30 -27.91%, #fd01a7 102.96%);
+}
+/* .explore:vus{
+  color: #ffac30;
+} */
+/* .different:{
+  background: linear-gradient(98.62deg, #ffac30 -27.91%, #fd01a7 102.96%);
+} */
+
 @media (max-width: 750px) {
   .unique-text h1 {
     width: 95%;
@@ -524,13 +538,14 @@ footer {
     font-size: 15px;
   }
   .three-div {
-    width: 290px;
+    width: 90%;
   }
   .special-img {
     width: 70px;
   }
   .each-creator-div {
-    width: 280px;
+    width: 95%;
+    justify-content: space-between;
   }
   .nft-ape-div {
     margin: 0 20px;
